@@ -3471,6 +3471,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 760521284}
     - target: {fileID: 5615206909734415387, guid: 4c033ef69eb269849bab9de975c465ed, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 5101360666556520564}
+    - target: {fileID: 5615206909734415387, guid: 4c033ef69eb269849bab9de975c465ed, type: 3}
       propertyPath: actionHistoryManager
       value: 
       objectReference: {fileID: 5101360666556520562}
@@ -3510,6 +3514,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76f0de7b69c52914aa90618ed0772ead, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!212 &5101360666556520564 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5267956022897430819, guid: 4c033ef69eb269849bab9de975c465ed, type: 3}
+  m_PrefabInstance: {fileID: 5101360666556520559}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6837961766961597303
 PrefabInstance:
   m_ObjectHideFlags: 0

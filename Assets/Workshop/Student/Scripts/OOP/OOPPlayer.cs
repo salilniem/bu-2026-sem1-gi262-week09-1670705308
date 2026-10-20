@@ -22,6 +22,7 @@ namespace Solution
             inventory = GetComponent<Inventory>();
             moveAction = InputSystem.actions.FindAction("Move");
             fireAction = InputSystem.actions.FindAction("Attack");
+            actionHistoryManager.SaveStateForUndo(new Vector2(positionX, positionY));
         }
 
         public void Update()
